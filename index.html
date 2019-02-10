@@ -8,71 +8,87 @@
   <title>Chess</title>
 </head>
 <body>
-    <div class="grid-container">
-        <div class="grid-item white">a8</div>
-        <div class="grid-item black">b8</div>
-        <div class="grid-item white">c8</div>
-        <div class="grid-item black">d8</div>
-        <div class="grid-item white">e8</div>
-        <div class="grid-item black">f8</div>
-        <div class="grid-item white">g8</div>
-        <div class="grid-item black">h8</div>
-        <div class="grid-item black">a7</div>
-        <div class="grid-item white">b7</div>
-        <div class="grid-item black">c7</div>
-        <div class="grid-item white">d7</div>
-        <div class="grid-item black">e7</div>
-        <div class="grid-item white">f7</div>
-        <div class="grid-item black">g7</div>
-        <div class="grid-item white">h7</div>
-        <div class="grid-item white">a6</div>
-        <div class="grid-item black">b6</div>
-        <div class="grid-item white">c6</div>
-        <div class="grid-item black">d6</div>
-        <div class="grid-item white">e6</div>
-        <div class="grid-item black">f6</div>
-        <div class="grid-item white">g6</div>
-        <div class="grid-item black">h6</div>
-        <div class="grid-item black">a5</div>
-        <div class="grid-item white">b5</div>
-        <div class="grid-item black">c5</div>
-        <div class="grid-item white">d5</div>
-        <div class="grid-item black">e5</div>
-        <div class="grid-item white">f5</div>
-        <div class="grid-item black">g5</div>
-        <div class="grid-item white">h5</div>
-        <div class="grid-item white">a4</div>
-        <div class="grid-item black">b4</div>
-        <div class="grid-item white">c4</div>
-        <div class="grid-item black">d4</div>
-        <div class="grid-item white">e4</div>
-        <div class="grid-item black">f4</div>
-        <div class="grid-item white">g4</div>
-        <div class="grid-item black">h4</div>
-        <div class="grid-item black">a3</div>
-        <div class="grid-item white">b3</div>
-        <div class="grid-item black">c3</div>
-        <div class="grid-item white">d3</div>
-        <div class="grid-item black">e3</div>
-        <div class="grid-item white">f3</div>
-        <div class="grid-item black">g3</div>
-        <div class="grid-item white">h3</div>
-        <div class="grid-item white">a2</div>
-        <div class="grid-item black">b2</div>
-        <div class="grid-item white">c2</div>
-        <div class="grid-item black">d2</div>
-        <div class="grid-item white">e2</div>
-        <div class="grid-item black">f2</div>
-        <div class="grid-item white">g2</div>
-        <div class="grid-item black">h2</div>
-        <div class="grid-item black">a1</div>
-        <div class="grid-item white">b1</div>
-        <div class="grid-item black">c1</div>
-        <div class="grid-item white">d1</div>
-        <div class="grid-item black">e1</div>
-        <div class="grid-item white">f1</div>
-        <div class="grid-item black">g1</div>
-        <div class="grid-item white">h1</div>
-      </div>
+    <div class="chessboard">
+      <section class="column-eight">
+        <div class="white-tile" id="a8"></div>
+        <div class="black-tile" id="b8"></div>
+        <div class="white-tile" id="c8"></div>
+        <div class="black-tile" id="d8"></div>
+        <div class="white-tile" id="e8"></div>
+        <div class="black-tile" id="f8"></div>
+        <div class="white-tile" id="g8"></div>
+        <div class="black-tile" id="h8"></div>
+      </section>
+      <section class="column-seven">
+        <div class="black-tile" id="a7"></div>
+        <div class="white-tile" id="b7"></div>
+        <div class="black-tile" id="c7"></div>
+        <div class="white-tile" id="d7"></div>
+        <div class="black-tile" id="e7"></div>
+        <div class="white-tile" id="f7"></div>
+        <div class="black-tile" id="g7"></div>
+        <div class="white-tile" id="h7"></div>
+      </section>
+      <section class="column-six">
+        <div class="white-tile" id="a6"></div>
+        <div class="black-tile" id="b6"></div>
+        <div class="white-tile" id="c6"></div>
+        <div class="black-tile" id="d6"></div>
+        <div class="white-tile" id="e6"></div>
+        <div class="black-tile" id="f6"></div>
+        <div class="white-tile" id="g6"></div>
+        <div class="black-tile" id="h6"></div>
+      </section>
+      <section class="columm-five">
+        <div class="black-tile" id="a5"></div>
+        <div class="white-tile" id="b5"></div>
+        <div class="black-tile" id="c5"></div>
+        <div class="white-tile" id="d5"></div>
+        <div class="black-tile" id="e5"></div>
+        <div class="white-tile" id="f5"></div>
+        <div class="black-tile" id="g5"></div>
+        <div class="white-tile" id="h5"></div>
+      </section>
+      <section class="column-four">
+        <div class="white-tile" id="a4"></div>
+        <div class="black-tile" id="b4"></div>
+        <div class="white-tile" id="c4"></div>
+        <div class="black-tile" id="d4"></div>
+        <div class="white-tile" id="e4"></div>
+        <div class="black-tile" id="f4"></div>
+        <div class="white-tile" id="g4"></div>
+        <div class="black-tile" id="h4"></div>
+      </section>
+      <section class="column-three">
+        <div class="black-tile" id="a3"></div>
+        <div class="white-tile" id="b3"></div>
+        <div class="black-tile" id="c3"></div>
+        <div class="white-tile" id="d3"></div>
+        <div class="black-tile" id="e3"></div>
+        <div class="white-tile" id="f3"></div>
+        <div class="black-tile" id="g3"></div>
+        <div class="white-tile" id="h3"></div>
+      </section>
+      <section class="column-two">
+        <div class="white-tile" id="a2"></div>
+        <div class="black-tile" id="b2"></div>
+        <div class="white-tile" id="c2"></div>
+        <div class="black-tile" id="d2"></div>
+        <div class="white-tile" id="e2"></div>
+        <div class="black-tile" id="f2"></div>
+        <div class="white-tile" id="g2"></div>
+        <div class="black-tile" id="h2"></div>
+      </section>
+      <section class="column-one">
+        <div class="black-tile" id="a1"></div>
+        <div class="white-tile" id="b1"></div>
+        <div class="black-tile" id="c1"></div>
+        <div class="white-tile" id="d1"></div>
+        <div class="black-tile" id="e1"></div>
+        <div class="white-tile" id="f1"></div>
+        <div class="black-tile" id="g1"></div>
+        <div class="white-tile" id="h1"></div>
+      </section>
+    </div>
 </body>
 </html>
